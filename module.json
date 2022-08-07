@@ -1,0 +1,13 @@
+{
+    "name": "scoredrawer",
+    "title": "Score Drawer",
+    "description": "Score creation for character's attributes.",
+    "version": "0.2.1",
+    "author": "Jeffrey Pina",
+    "systems": ["dnd5e"],
+    "scripts": ["./scoredrawer.js"],
+    "styles": ["./scoredrawer.css"],
+    "packs": [],
+    "minimumCoreVersion": "9.0.0",
+    "compatibleCoreVersion": "9.0.0"
+}

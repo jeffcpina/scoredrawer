@@ -1,0 +1,74 @@
+.inputCont>table>tbody>tr>td, .selection>tbody>tr>td, .customCost>tbody>tr>td {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    font-size: 1.1em;
+}
+.updown {
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+}
+
+.downup {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    display: inline-block;
+}
+
+.downup td:nth-child(3n+2) {
+    width: 50px;
+}
+
+.updownCont {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    width: 16px;
+    height: 30px;
+    top: 0px;
+    left: 0px;
+}
+
+.up {
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    border-style: outset;
+    border-width: 2px;
+    background-color: #333d4d;
+    padding: 0px;
+    background-position: center;
+    background: url('images/uparrow.png') no-repeat;
+  	background-size: contain;
+}
+
+.down {
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    margin: 0px;
+    top: 17px;
+    left: 0px;
+    border-style: outset;
+    border-width: 2px;
+    background-color: #333d4d;
+    padding: 0px;
+    background-position: center;
+    background: url('images/downarrow.png') no-repeat;
+    background-size: contain;
+}
+
+button.up, button.down {
+    background-color: black;
+}
+button.apply_stats {
+    height: 29px;
+    width: 88px;
+}
+

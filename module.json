@@ -2,12 +2,15 @@
     "name": "scoredrawer",
     "title": "Score Drawer",
     "description": "Score creation for character's attributes.",
-    "version": "0.2.1",
+    "version": "0.2.7",
     "author": "Jeffrey Pina",
     "systems": ["dnd5e"],
     "scripts": ["./scoredrawer.js"],
     "styles": ["./scoredrawer.css"],
     "packs": [],
     "minimumCoreVersion": "9.0.0",
-    "compatibleCoreVersion": "9.0.0"
+    "compatibleCoreVersion": "9.0.0",
+    "url": "https://github.com/jeffcpina/scoredrawer",
+    "manifest":"https://github.com/jeffcpina/scoredrawer/releases/download/v.0.2.7/module.json",
+    "download":"https://github.com/jeffcpina/scoredrawer/releases/download/v.0.2.7/releasemodule-scoredrawer.0.2.6.zip"
 }
